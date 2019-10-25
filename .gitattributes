@@ -12,31 +12,31 @@
 ###############################################################################
 #*.m     diff=matlab
 
-*.mlx		-crlf -diff -merge=binary
-*.mat		-crlf -diff -merge=binary
-*.fig		-crlf -diff -merge=binary
-*.mdl		-crlf -diff -merge=binary
-*.slx		-crlf -diff -merge=binary
-*.mlapp		-crlf -diff -merge=binary
-*.p			-crlf -diff -merge=binary
-*.mdlp		-crlf -diff -merge=binary
-*.slxp		-crlf -diff -merge=binary
-*.sldd		-crlf -diff -merge=binary
-*.slxc		-crlf -diff -merge=binary
-*.mlproj	-crlf -diff -merge=binary
-*.mldatx	-crlf -diff -merge=binary
-*.slreqx	-crlf -diff -merge=binary
-*.sfx		-crlf -diff -merge=binary
-*.sltx		-crlf -diff -merge=binary
-
-*.mexa64	-crlf -diff -merge=binary
-*.mexw64	-crlf -diff -merge=binary
-*.mexmaci64	-crlf -diff -merge=binary
-*.xlsx		-crlf -diff -merge=binary
-*.docx		-crlf -diff -merge=binary
-*.pdf		-crlf -diff -merge=binary
-*.jpg		-crlf -diff -merge=binary
-*.png		-crlf -diff -merge=binary
+#*.mlx		-crlf -diff -merge=binary
+#*.mat		-crlf -diff -merge=binary
+#*.fig		-crlf -diff -merge=binary
+#*.mdl		-crlf -diff -merge=binary
+#*.slx		-crlf -diff -merge=binary
+#*.mlapp		-crlf -diff -merge=binary
+#*.p			-crlf -diff -merge=binary
+#*.mdlp		-crlf -diff -merge=binary
+#*.slxp		-crlf -diff -merge=binary
+#*.sldd		-crlf -diff -merge=binary
+#*.slxc		-crlf -diff -merge=binary
+#*.mlproj	-crlf -diff -merge=binary
+#*.mldatx	-crlf -diff -merge=binary
+#*.slreqx	-crlf -diff -merge=binary
+#*.sfx		-crlf -diff -merge=binary
+#*.sltx		-crlf -diff -merge=binary
+#
+#*.mexa64	-crlf -diff -merge=binary
+#*.mexw64	-crlf -diff -merge=binary
+#*.mexmaci64	-crlf -diff -merge=binary
+#*.xlsx		-crlf -diff -merge=binary
+#*.docx		-crlf -diff -merge=binary
+#*.pdf		-crlf -diff -merge=binary
+#*.jpg		-crlf -diff -merge=binary
+#*.png		-crlf -diff -merge=binary
 
 # Basic .gitattributes for a MATLAB repo.
 # This template includes Simulink and MuPAD extensions, in addition
@@ -44,23 +44,23 @@
 
 # Source files
 # ============
-#*.m             text diff=matlab
-#*.mu            text diff=matlab
+*.m             text diff=matlab
+*.mu            text diff=matlab
 
 # Caution: *.m also matches Mathematica packages.
 
 # Binary files
 # ============
-#*.p             binary
-#*.mex*          binary
-#*.fig           binary
-#*.mat           binary
-#*.mdl           binary
-#*.slx           binary
-#*.mdlp          binary
-#*.slxp          binary
-#*.sldd          binary
-#*.mltbx         binary
-#*.mlappinstall  binary
-#*.mlpkginstall  binary
-#*.mn            binary
+*.p             binary
+*.mex*          binary
+*.fig           binary
+*.mat           binary
+*.mdl           binary
+*.slx           binary
+*.mdlp          binary
+*.slxp          binary
+*.sldd          binary
+*.mltbx         binary
+*.mlappinstall  binary
+*.mlpkginstall  binary
+*.mn            binary
